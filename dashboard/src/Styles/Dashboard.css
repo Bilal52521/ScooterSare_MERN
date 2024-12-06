@@ -1,0 +1,15 @@
+.dashboard {
+  background: radial-gradient(circle, #a1ff9b 0%, #ffffff 70%, transparent 100%); 
+   background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  
+}
+

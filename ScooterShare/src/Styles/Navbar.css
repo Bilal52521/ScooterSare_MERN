@@ -1,0 +1,206 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Top bar styles */
+.top-bar {
+  background-color: #1e1f1d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+.green-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #6ee06e;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.hiring-text {
+  font-weight: bold;
+}
+
+.contact-info {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-info .phone, .contact-info .email {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info i {
+  margin-right: 5px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  padding-top: 13px;
+}
+
+.menu.open {
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #28fd28;
+}
+
+.pricing-button {
+  background-color: #6ee06e;
+  color: white;
+  padding: 13px 26px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.pricing-button:hover {
+  background-color: #000000;
+  color:white;
+}
+
+/* Dropdown menu styles */
+
+/* Dropdown menu styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position the dropdown below the parent */
+  left: 0;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 10;
+  width: 200px; /* Adjust as needed */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block; /* Show the dropdown when hovering over the parent */
+}
+
+.dropdown-menu a {
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Adjust for better usability */
+.dropdown-menu li {
+  display: block;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+
+
+  
+}

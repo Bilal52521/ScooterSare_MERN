@@ -1,0 +1,48 @@
+
+.sidebar {
+  width: 226px;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  background: #333333;
+  color: #ffffff;
+  padding: 35px 40px;
+  }
+  
+
+
+  .logo {
+    display: ruby-text;
+
+  }
+
+  
+  .sidebar .logo img {
+    padding-right: 12px;
+    width: 57px;
+    height: 32px;
+    
+  }
+  
+  .links {
+    outline:none;
+    display: grid;
+  }
+
+  .links p {
+    color:white;
+    font-size: 24px;
+  }
+
+  .links p:hover {
+    color: #57befa; /* Change text color on hover */
+    transform: scale(1.1); /* Slightly enlarge the text */
+    text-shadow: 0 0 10px rgba(76, 175, 80, 0.8); /* Add a subtle glow */
+    transition: all 0.3s ease;
+  }
+
+  .links a {
+    text-decoration: none;
+    border-bottom: 1px solid #48b7f3;
+  }

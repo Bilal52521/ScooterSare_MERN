@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #123456;
+    --secondary-color: #654321;
+    --font-family: 'Arial, sans-serif';
+}
+* {
+  
+    font-family: var(--font-family);
+}
+
+
+
+  /* Hover effect for all links using global class */
+  a.global-hover:hover {
+    color:#57befa;
+    transition:  0.3s all ease;
+    transform: scale(1.1); /* Slightly enlarge the text */
+  }
+  
+
+  /* global.css */
+
+/* Global button styles */
+.btn {
+  font-size: x-large;
+  height: 42px;
+  width: 24rem;
+  background-color: #5ed75e;
+  color: white;
+  margin: -5px 0px 0px 38px;
+  border-radius: 21px;
+  cursor: pointer;
+  border:none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Global button hover effect */
+.btn:hover {
+  background-color: black;
+  color: white;
+}

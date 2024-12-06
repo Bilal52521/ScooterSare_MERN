@@ -1,0 +1,86 @@
+.team-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px; /* Add padding for spacing */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  height: 31rem;
+}
+
+.text-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.section-description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+.image-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.team-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .team-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 30px; /* Increase gap for vertical spacing */
+  }
+
+  .text-content, .image-content {
+    max-width: 100%; /* Allow full width for smaller screens */
+  }
+
+  .section-title {
+    font-size: 2rem; /* Reduce font size */
+  }
+
+  .section-description {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+    text-align: center; /* Center-align text for better readability */
+  }
+
+  .team-image {
+    max-width: 90%; /* Slightly reduce the image size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-title {
+    font-size: 1.8rem; /* Further reduce font size */
+  }
+
+  .section-description {
+    font-size: 0.85rem; /* Adjust font size */
+    line-height: 1.5; /* Reduce line height */
+  }
+
+  .team-container {
+    padding: 10px; /* Reduce padding for very small screens */
+  }
+
+  .team-image {
+    max-width: 100%; /* Ensure the image does not overflow */
+  }
+}

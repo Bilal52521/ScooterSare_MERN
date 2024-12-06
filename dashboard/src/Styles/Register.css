@@ -1,0 +1,36 @@
+/* Login.css */
+
+
+
+/* Form container styles */
+.form-containerr {
+    height: 22rem;
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 19px 49px 12px 29px;
+    border: 8px solid #88ffc3;
+      border-radius: 26px;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .login-formr {
+    font-size: larger;
+  }
+  /* Login form styles */
+  .login-formr .form-groupr {
+    margin-bottom: 15px;
+  }
+  
+  .login-formr label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-formr input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,43 @@
+.section2 {
+    padding: 4rem 0;
+    text-align: center;
+    
+  }
+  
+  .section2 h2 {
+    
+    margin-bottom: 2rem;
+    color: #333;
+    
+font-family: inter, sans serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 31.65px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  
+  .client-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    
+  }
+  
+  .client-icon {
+    font-size: 3rem; /* Adjust the size as needed */
+    color: #A4A7A5; /* Default color */
+
+
+
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .client-icon:hover {
+    color: #000; /* Change color on hover */
+  }
+  

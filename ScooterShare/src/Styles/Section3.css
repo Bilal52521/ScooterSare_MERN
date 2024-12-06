@@ -1,0 +1,261 @@
+.section3 {
+  height: 74rem;
+    position: relative;
+    padding: 4rem 2rem;
+    font-family: 'Roboto', sans-serif; /* Ensure the correct font family */
+    background-color: #ffffff;
+  }
+  
+  .background-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .green-circleh {
+    width: auto;
+    height: auto;
+    left: -17px;
+    top: 31%;
+  }
+  
+  .purple-circleh {
+    right: -34px;
+    top: -1%;
+  }
+  
+  .contents3 {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+  
+  .section3-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-left: 45px;
+    display: block;
+  }
+  
+  .section3-header h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .section3-header h3 {
+    font-size: 22px;
+    color: #666;
+    font-family: inter, sans-serif;
+  }
+
+  .section3-header p {
+   
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .features {
+    padding-left: 44px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 75px;
+  }
+  
+  #s3-1 {
+    padding-bottom: 75px;
+    float: left;
+  }
+
+  #s3-6 {
+    padding-bottom: 1px;
+    
+  }
+
+  #s3-easyfun {
+    padding-left: 34px;
+    padding-bottom: 0px;
+}
+
+#map {
+  padding-top: 91px;
+}
+  
+
+#pay {
+  padding-top: 97px;
+}
+  .feature, .feature-image-wrapper {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left; /* Align text to the left */
+    height: 193px; /* Set a specific height */
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-family: inter, sans-serif;
+    font-weight: 700;
+  }
+  
+  .feature img, .feature-image-wrapper img {
+    width: 94%;
+    height: auto;
+    margin-bottom: -2rem;
+  }
+  
+  .feature p {
+    padding-right: 25px;
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .feature ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .feature ul li {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #99DC30; /* Green color */
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 2px white;
+    position: relative;
+  }
+  
+  .checkbox::before {
+    content: '✔';
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .btns3 {
+    width: 236px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #99DC30;
+    color: black;
+    border: none;
+  }
+  
+  .btns3:hover {
+    background-color: #030303;
+    color:rgb(255, 255, 255);
+  }
+  
+  @media (max-width: 768px) {
+
+    .section3 {
+      height: 113rem;
+      position: relative;
+     
+      font-family: 'Roboto', sans-serif;
+      background-color: #ffffff;
+
+  }
+
+
+  .content3  {
+    margin: 12px 0px 0px -24px;
+    
+    float: left;
+    position: relative;
+    z-index: 2;
+    
+  }
+    .features {
+      grid-template-columns: 1fr;
+        padding-left: 12px;
+    }
+  
+  
+
+    .features p {
+    
+    }
+    .feature, .feature-image-wrapper {
+      width: 90%;
+    }
+
+    .feature img, .feature-image-wrapper img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 0rem; 
+      padding-right: 17px; 
+    
+       }
+       
+       #s3img1 {
+        padding-right: 34px;
+       }
+
+
+       .section3-header {
+        text-align: left;
+    margin-bottom: 2rem;
+    /* padding-left: 45px; */
+    display: block;
+       }
+
+    .section3-header h3 {
+      float:left;
+      font-size: 22px;
+      color: #666;
+      font-family: inter, sans-serif;
+     
+    }
+
+    .section3-header p {
+      
+      font-size: 16px;
+     
+    }
+
+    #s3-easyfun {
+    padding-left: 20px;
+    padding-bottom: 159px;
+}
+
+.btns3 {
+  width: 328px;
+}
+
+#map {
+  padding-top:75px;
+}
+  }
+  

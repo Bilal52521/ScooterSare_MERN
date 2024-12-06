@@ -1,0 +1,164 @@
+.jobs {
+    font-family: Arial, sans-serif;
+    padding: 40px 136px;
+    background-color: #f4f7f9; /* Light background */
+  }
+  
+  .jobs h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .jobs p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .job-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Default column layout */
+  }
+  
+  .job-card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #222;
+  }
+  
+  .job-card p {
+    padding: 1px 0;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .job-details {
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .job-hours,
+  .job-salary {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .job-hours svg,
+  .job-salary svg {
+    color: rgb(110, 241, 110); /* Green icon color */
+    margin-right: 8px;
+  }
+  
+  .more-info {
+    background-color: #79da41;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: auto; /* Push button to the right */
+    align-self: flex-end; /* Align the button to the end of the job-card container */
+  }
+  
+  .more-info:hover {
+    background-color: #000000;
+    color:white;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 1024px) {
+    .jobs {
+      padding: 30px 80px; /* Reduce padding for tablets */
+    }
+  
+    .jobs h1 {
+      font-size: 28px; /* Adjust font size for tablets */
+    }
+  
+    .jobs p {
+      font-size: 15px; /* Slightly smaller font for tablets */
+    }
+  
+    .job-card {
+      padding: 15px 20px; /* Reduce padding inside job cards */
+    }
+  
+    .job-card h2 {
+      font-size: 18px; /* Adjust job title font size */
+    }
+  
+    .job-card p {
+      font-size: 13px; /* Adjust description font size */
+    }
+  
+    .more-info {
+      font-size: 13px; /* Slightly smaller button font */
+      padding: 8px 18px; /* Adjust button padding */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .jobs {
+      padding: 20px 40px; /* Reduce padding for smaller screens */
+    }
+  
+    .job-details {
+      flex-direction: column; /* Stack job details vertically */
+      gap: 5px; /* Reduce gap for smaller space */
+    }
+  
+    .more-info {
+      align-self: center; /* Center-align the button */
+      margin: 0; /* Remove left margin */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .jobs {
+      padding: 15px 20px; /* Minimal padding for mobile screens */
+    }
+  
+    .jobs h1 {
+      font-size: 24px; /* Smaller title font size */
+      text-align: center; /* Center-align title on mobile */
+    }
+  
+    .jobs p {
+      font-size: 14px; /* Reduce description font size */
+      text-align: center; /* Center-align paragraph on mobile */
+    }
+  
+    .job-card {
+      padding: 10px 15px; /* Compact padding inside job cards */
+    }
+  
+    .job-card h2 {
+      font-size: 16px; /* Reduce job title font size */
+    }
+  
+    .job-card p {
+      font-size: 12px; /* Reduce description font size */
+    }
+  
+    .more-info {
+      font-size: 12px; /* Smaller button font */
+      padding: 6px 16px; /* Adjust button padding */
+    }
+  }
+  

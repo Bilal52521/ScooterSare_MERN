@@ -1,0 +1,108 @@
+.blogs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  background: #e0e0e0;
+  text-align: -webkit-center;
+}
+
+.blog-form {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+ 
+    width: 27rem;
+}
+
+.blog-form .form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.blog-form .form-row label {
+  font-weight: bold;
+}
+
+.blog-form .form-row input {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  outline: none;
+  font-size: 16px;
+}
+
+.blog-form .form-row input:focus {
+  border-color: #4caf50;
+}
+
+.blog-form button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: rgb(78, 221, 78);
+  color: black;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.blog-form button:hover {
+  background-color: black;
+  color: white;
+}
+
+.table-container {
+  width: 100%;
+  margin-top: 20px;
+  overflow-x: auto;
+  text-align-last: center;
+}
+
+.create-btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: rgb(78, 221, 78);
+  color: black;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+  margin-left: 42px;
+}
+
+.create-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  width: 64px;
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+td img {
+  border-radius: 5px;
+}

@@ -1,0 +1,152 @@
+.section6 {
+  color: #333;
+}
+
+#small-plan {
+  height: 83%;
+  width: 86%;
+ 
+}
+
+#basic-plan {
+  height: 87%;
+ 
+}
+
+
+#big-plan {
+  height: 97%;
+  
+}
+
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pricing-header h2 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Default 3 columns for larger screens */
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 142px;
+}
+
+.pricing-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-card .price {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-card ul li {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 18.5px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: #99DC30; /* Green color */
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 2px white;
+  position: relative;
+}
+
+.checkbox::before {
+  content: '✔';
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pricing-btn {
+  width: 100%; /* Full width for small screens */
+  background-color: #99DC30;
+  color: black;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.pricing-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+@media (max-width: 768px) {
+  
+  .section6 { 
+    grid-template-columns: 1fr; /* Single-column layout */
+    
+
+  }
+
+  .pricing-grid {
+    margin-left: -79px;
+    width: 176%;
+    grid-template-columns: 1fr;
+}
+
+
+
+  #small-plan {
+    height:93%;
+    width: 122%;
+      }
+
+ 
+
+  #basic-plan {
+    height:94%;
+    width: 122%;
+      }
+
+#big-plan {
+        height:94%;
+        width: 122%;
+          }
+
+
+
+
+
+}
+

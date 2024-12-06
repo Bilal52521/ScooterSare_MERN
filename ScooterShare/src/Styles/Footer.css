@@ -1,0 +1,139 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 1rem; /* Adjusted for smaller screens */
+  height: auto; /* Flexible height */
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column; /* Default to column for smaller screens */
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 9rem;
+}
+
+.footer-logo {
+  flex: 1;
+  text-align: left; /* Centered for smaller screens */
+  margin-bottom: 1rem; /* Add spacing */
+}
+
+.logo-image {
+  margin-bottom: -47px; /* Adjust for better fit */
+}
+
+#fh1 {
+  font-size: 24px; /* Smaller font size for smaller screens */
+  padding-left: 59px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap; /* Wrap columns */
+  justify-content: center;
+  flex: 1;
+  gap: 2rem; /* Add space between columns */
+  padding-left: 0;
+  margin-top: 1rem; /* Add spacing */
+}
+
+.footer-column {
+  text-align: center; /* Centered for smaller screens */
+  margin: 0 1rem;
+}
+
+.footer-column h4 {
+  font-size: 1rem; /* Smaller font size */
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-left: 0;
+  margin-top: 1rem; /* Add spacing */
+}
+
+.social-icon {
+  font-size: 1.25rem; /* Adjusted for smaller screens */
+}
+
+hr {
+  margin: 1rem auto;
+  width: 90%; /* Full width for smaller screens */
+  border-top: 2px solid #e0dddd;
+}
+
+.footer-bottom {
+  padding-left: 139px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: -3rem;
+  width: 89%;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.footer-bottom .copyright,
+.footer-bottom .rights {
+  text-align: center; /* Unified alignment for small screens */
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row; /* Row layout for medium screens */
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer-logo {
+    text-align: left;
+  }
+
+  .footer-links {
+    justify-content: center;
+    flex: 7 1;
+    padding-left: 173px; /* Original padding for larger screens */
+  }
+
+  .footer-social {
+    justify-content: center;
+    flex: 1;
+    gap: 1rem;
+    padding-left: 104px; /* Original padding for larger screens */
+  }
+
+  hr {
+    margin-left: 123px;
+    width: 80%;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 139px;
+  }
+
+ 
+
+  .logo-image {
+    padding-right: 12px;
+  }
+}
+
+.footer-bottom p {
+  padding-right:64px;
+}
+
